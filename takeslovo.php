@@ -32,7 +32,7 @@ if ($slovo == 'устав')
 
             //echo sprintf("%015.2f", floatval($slovo));
 
-            echo mb_convert_case($slovo, MB_CASE_LOWER, 'UTF-8');
+            echo mb_convert_case($slovo, MB_CASE_LOWER, 'UTF-8'); // аналог strtolower() не требующая установки языковой локали
 
 
 ?>
